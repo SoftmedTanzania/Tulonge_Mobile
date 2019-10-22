@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "137838197471",
+    "firebase_url": "https://tulongeafya-1571252566242.firebaseio.com",
+    "project_id": "tulongeafya-1571252566242",
+    "storage_bucket": "tulongeafya-1571252566242.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137838197471:android:85711f95082c35bf72476a",
+        "android_client_info": {
+          "package_name": "org.tulongeafya.chw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137838197471-ci8ukouns30htfdm1bepqo046npn2nvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYT_I0EkY0rzVjXMFa6gIFgHMNuGobXRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137838197471-ci8ukouns30htfdm1bepqo046npn2nvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
