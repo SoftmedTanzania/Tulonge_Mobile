@@ -100,23 +100,52 @@ class LoginScreenState extends State<LoginScreen>
 
     final services = Padding(
       padding: EdgeInsets.all(8.0),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          CircleAvatar(
-            backgroundColor: Colors.transparent,
-            radius: 24.0,
-            child: Image.asset('assets/naweza_logo.png'),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(18),
+                    border: Border.all(color: Colors.black12, width: 1)),
+                width: 110,
+                child: Image.asset(
+                  'assets/furaha_yangu.png',
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(18),
+                    border: Border.all(color: Colors.black12, width: 1)),
+                width: 110,
+                child: Image.asset('assets/naweza_logo.png'),
+              ),
+            ],
           ),
-          CircleAvatar(
-            backgroundColor: Colors.transparent,
-            radius: 24.0,
-            child: Image.asset('assets/furaha_yangu.png'),
+          SizedBox(
+            height: 10.0,
           ),
-          CircleAvatar(
-            backgroundColor: Colors.transparent,
-            radius: 24.0,
+          Container(
+            padding: EdgeInsets.all(8),
+            decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(18),
+                border: Border.all(color: Colors.black12, width: 1)),
+            width: 120,
             child: Image.asset('assets/sitetereki_logo.png'),
+          ),
+          SizedBox(
+            height: 10.0,
+          ),
+          Text(
+            'TULONGE AFYA',
+            style: TextStyle(
+              fontWeight: FontWeight.w500,
+              fontSize: 20,
+            ),
           ),
         ],
       ),
@@ -183,9 +212,9 @@ class LoginScreenState extends State<LoginScreen>
             shrinkWrap: true,
             padding: EdgeInsets.only(left: 24.0, right: 24.0),
             children: <Widget>[
-              SizedBox(height: 96.0),
-              logoTop,
-              SizedBox(height: 96.0),
+              services,
+//              logoTop,
+              SizedBox(height: 26.0),
               Form(
                 key: _formKey,
                 child: Column(
@@ -266,8 +295,6 @@ class LoginScreenState extends State<LoginScreen>
                     ]),
               ),
               SizedBox(height: 98.0),
-              logoBottom,
-              services,
             ],
           ),
         ),
