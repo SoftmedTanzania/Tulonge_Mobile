@@ -13,7 +13,7 @@
         android:label="Tulonge Afya"
         android:icon="@mipmap/launcher_icon">
         <meta-data android:name="com.google.android.geo.API_KEY"
-                   android:value="AIzaSyDMokINYF0aC5zK7i2fldveKx20hUwEbK8"/>
+                   android:value="AIzaSyDMokINYF0aC5zK7i2fldveKx20hUwEbK81"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
