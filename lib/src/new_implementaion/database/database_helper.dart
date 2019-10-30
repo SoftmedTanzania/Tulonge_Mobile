@@ -5,7 +5,7 @@ import 'dart:math';
 import 'package:http/http.dart' as http;
 
 final String databaseName = 'chw_app_table';
-final String googleMapKey = 'AIzaSyDMokINYF0aC5zK7i2fldveKx20hUwEbK8';
+final String googleMapKey = 'AIzaSyDMokINYF0aC5zK7i2fldveKx20hUwEbK81';
 
 getDoubleNumber(number) {
   if (number != null) {
